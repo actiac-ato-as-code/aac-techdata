@@ -26,29 +26,30 @@ This playbook is not an official policy, mandates agency action, nor does it pro
 
 Explain in plain language the key information for everyone to understand. Include known challenges, lessons learned, graphics, or risks before starting on a pilot.
 
+**Figure 1.**
+![Each OSCAL file imports information from the one before it.](https://github.com/actiac-ato-as-code/aac-techdata/blob/playbook/f1-oscal.png)
+
 1)	Implement a Work Management Platform (WMP) (not project management) (perpetual tasks – not one task) to drive out-come based performance that supports division of labor and aligns with the OSCAL-based versions of file content (see below).
-
-2)	Initiate division of compliance activities (labor) – to enable automation, for greater autonomy and empower grass-roots process optimization. 
-
+2)	Initiate division of compliance activities (labor) – to enable automation, for greater autonomy and empower grass-roots process optimization.
 3)	Value chain analysis - self-explanatory and accountability for work performance and business process management (automation) to deliver metrics to identify candidates for automation.
-
 4)	Pursue an “information maturity” model (not a process maturity model which perpetuates the antiquated activity-centric process) as a roadmap (see below) to shift from activity-centric to data-centric practices with a new lifecycle and information models (the video I shared and Greg spoke about).
-
 5)	Contemplate abandoning monolithic GRC architectures in favor of a more-agile modular model that OSCAL enables - in anticipation of accelerated and imminent change with the adoption of next-generation security practices, exploring niche commercial solutions that provide an annual subscription cloud-based solutions that introduce the OSCAL capability: For example, a system security plan (SSP) authoring tool delivers the OSCAL capability for immediate adoption until migration of an agencies applications to the cloud is complete (Cloud Smart 2019). This transfers the onus of producing and maintaining SSPs from agencies to the cloud service providers, and preliminary security assessments will be performed by the FedRAMP PMO.
 
-6)	UUIDs play an integral part in adopting OSCAL with version control, resource identification and security protocol. This is an enterprise architecture unto itself that is necessary to successfully adopt OSCAL and beyond my complete understanding right now. 
+**Figure 2.**
+![Stages of expansion.](https://github.com/actiac-ato-as-code/aac-techdata/blob/playbook/f2-stage.png)
 
-7)	This is where the data schema experts can source or publish a ‘glossary’ or how to apply a ‘standard’ for tags to jump-start XML developers in the digitization of SSPs. Focus on XML, as NIST offers a tool to convert XML to JSON. The means and techniques to digitize SSPs will vary across agency and it will be a hand-mash exercise as there is no ‘tool’ in existence that can perform this given the ‘uniqueness’ of how SSPs are constructed.
+7)	UUIDs are integral in adopting OSCAL with version control, resource identification, and security protocol. This is an enterprise architecture unto itself that is necessary to successfully adopt OSCAL and beyond my complete understanding right now.
+8)	This is where the data schema experts can source or publish a ‘glossary’ or how to apply a ‘standard’ for tags to jump-start XML developers in the digitization of SSPs. Focus on XML, as NIST offers a tool to convert XML to JSON. The means and techniques to digitize SSPs will vary across agencies and it will be a hand-mash exercise as there is no ‘tool’ in existence that can perform this given the ‘uniqueness’ of how SSPs are constructed.
 
-8)	a) Begin the adoption of OSCAL by marking up existing SSPs in XML (digitization) for digestion into an application as a living document. This may be an opportunity to revert the ISSO-centric practice that has evolved back to the Security Authorization Team model as drafted by the DHS CISO in the Security Authorization Process Guide (v11.1, 2015) under section 2.5 as modeled in figure 1 and shown on the right. This step should not precede an application to maintain the digitized SSP as a living document. Verify integrity of the digitized OSCAL SSP with digestion into the Government Book of Record.
+**Figure 3.**
+![OSCAL Stakeholders.](https://github.com/actiac-ato-as-code/aac-techdata/blob/playbook/f3-stakeholders.png)
 
-b) Begin testing the receipt of FedRAMP security assessments that are formatted in OSCAL. Fine tune the receipt to automate preliminary assessment similar to the practice of the FedRAMP PMO in automated preliminary assessment of SSPs presented by Cloud Service Providers. Submit an non-cloud OSCAL SSP created by the agency for security assessment to hone process automation.
-
-c) With a view to submitting POA&Ms in OSCAL format, begin converging POA&M administration into the vulnerability management program.
-
-9)	Begin collecting business process metrics from the WMP to improve the value proposition of compliance activities, identify candidates for automation, and empower participants to optimize the respective process applying assistive technologies.
-
-10)	Expand the controls implemented in the SSP to emerging threats as discovered in real-time through security intelligence. The optimal result is a continuum of real-time updates in security assessment documentation, governed by human intervention at the assessment stage, and ingestion of trigger events to update the policy engine in Zero Trust Architecture for immediate enforcement. 
+8)
+    1)	Begin the adoption of OSCAL by marking up existing SSPs in XML (digitization) for digestion into an application as a living document. This may be an opportunity to revert the ISSO-centric practice that has evolved back to the Security Authorization Team model as drafted by the DHS CISO in the Security Authorization Process Guide (v11.1, 2015) under section 2.5 as modeled in figure 1 and shown on the right. This step should not precede an application to maintain the digitized SSP as a living document. Verify the integrity of the digitized OSCAL SSP with digestion into the Government Book of Record.
+    2)	Begin testing the receipt of FedRAMP security assessments that are formatted in OSCAL. Fine-tune the receipt to automate preliminary assessment similar to the practice of the FedRAMP PMO in an automated preliminary assessment of SSPs presented by Cloud Service Providers. Submit a non-cloud OSCAL SSP created by the agency for a security assessment to hone process automation.
+    3)	With a view to submitting POA&Ms in OSCAL format, begin converging POA&M administration into the vulnerability management program.
+9)  Begin collecting business process metrics from the WMP to improve the value proposition of compliance activities, identify candidates for automation, and empower participants to optimize the respective process by applying assistive technologies.
+10)	Expand the controls implemented in the SSP to emerging threats as discovered in real-time through security intelligence. The optimal result is a continuum of real-time updates in security assessment documentation, governed by human intervention at the assessment stage and ingestion of trigger events to update the policy engine in Zero Trust Architecture for immediate enforcement. 
 
 # <Topic> Playbook
 
