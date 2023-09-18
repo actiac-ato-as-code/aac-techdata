@@ -4,7 +4,7 @@ OSCAL can help streamline the generation and maintenance of A&A artifacts throug
 1. define a strategy
 2. make a plan
 3. ready your organization
-4. adopt OSCAL
+4. adopt OSCAL either through a tool or through a developer approach.
 5. tweak your success trajectory through good governance and continuous improvement.
 
 Note that i) and ii) may not be combined and labeled a strategic plan because there is no “strategic plan.” The strategy is an integrative set of choices that positions the organization on a playing field of your choice in the most successful way. That strategy must be coherent, doable, and actionable. Planning does not have to have any such coherence and is just a list of actionable activities required to deliver on that strategy.
@@ -19,13 +19,12 @@ Table 1. Literature Review and Artifacts
 | Source | Overview | Relevant | Current |
 | ---- | ----- | ----- | ------ |
 | [Air Force Office of the Chief Software Officer Training Page](https://software.af.mil/training/) | Recommended books, videos, and DAU resources for DevSecOps. Nothing specific to OSCAL | No | No date |
-| [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges in using OSCAL | Yes | Last update June 2023(?). |
+| [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges in using OSCAL | Yes | Last update June 2023(?). |
 | [GO OSCAL SDK Github Repo](https://github.com/GoComply/oscalkit) | Barebones GO SDK for working with OSCAL. | Yes | Oct 2023 |
+| [FedRAMP Automation OSCAL Guides and Templates](https://github.com/GSA/fedramp-automation) | Collection of OSCAL-formatted artifacts and guides to get strated with OSCAL for FedRAMP. | Yes | Sep 2023 |
 
 # Current Status
 
-https://www.fedramp.gov/using-the-fedramp-oscal-resources-and-templates/
-https://github.com/GSA/fedramp-automation
 https://pages.nist.gov/OSCAL/
 
 
