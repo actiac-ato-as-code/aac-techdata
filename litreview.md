@@ -16,23 +16,20 @@ Legislation (EO 14028, FISMA 2022) continues to be published, mandating advances
 This is a collection of resources.
 
 Table 1. Literature Review and Artifacts
-| Source | Overview | Relevant | Current |
+| Source | Overview | Audience | Relevant | Current |
 | ---- | ----- | ----- | ------ |
-| [Air Force Office of the Chief Software Officer Training Page](https://software.af.mil/training/) | Recommended books, videos, and DAU resources for DevSecOps. Nothing specific to OSCAL | No | No date |
-| [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges in using OSCAL | Yes | Last update June 2023(?). |
-| [GO OSCAL SDK Github Repo](https://github.com/GoComply/oscalkit) | Barebones GO SDK for working with OSCAL. | Yes | Oct 2023 |
-| [FedRAMP Automation OSCAL Guides and Templates](https://github.com/GSA/fedramp-automation) | Collection of OSCAL-formatted artifacts and guides to get strated with OSCAL for FedRAMP. | Yes | Sep 2023 |
+| [Air Force Office of the Chief Software Officer Training Page](https://software.af.mil/training/) | Recommended books, videos, and DAU resources for DevSecOps. Nothing specific to OSCAL. | Developers | No | No date |
+| [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges using OSCAL. | General Audience | Yes | Last update June 2023(?). |
+| [GO OSCAL SDK Github Repo](https://github.com/GoComply/oscalkit) | Barebones GO SDK for working with OSCAL. | Developers | Yes | Oct 2023 |
+| [FedRAMP Automation OSCAL Guides and Templates](https://github.com/GSA/fedramp-automation) | Various tools and guides to use and automate OSCAL for the FEDRAMP process. | Developers | Yes | Sep 2023 |
 
 # Current Status
 
 https://pages.nist.gov/OSCAL/
 
-
 NIST Walkthrough tutorials: https://pages.nist.gov/OSCAL/learn/tutorials/
 
 NISTS walkthrough tutorials seem like some of the best and most extensive documentation for developers to review; they detail how to create various OSCAL content, and when visiting the OSCAL GitHub, there are many examples of the data to review. ( https://github.com/usnistgov/OSCAL )
-
-GSA Fedramp Automation Github: https://github.com/GSA/fedramp-automation/tree/master The GSA fed ramp automation Git Hub includes various tools and guides to use and automate OSCAL for the FEDRAMP process. The guides are targeted at developers looking to implement solutions for leveraging OSCAL. Directions included cover SSPs, POAMS, SAPs, and SARs.
 
 Gocomply FEDRAMP Github: https://github.com/GoComply/fedramp Tool for manipulating official fed ramp assets
 
