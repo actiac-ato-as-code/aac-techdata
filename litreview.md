@@ -17,9 +17,9 @@ This is a collection of resources.
 
 Table 1. Literature Review and Artifacts
 | Source | Overview | Audience | Relevant | Current |
-| ---- | ----- | ----- | ------ |
+| ------ | -------- | -------- | -------- | ------- |
 | [Air Force Office of the Chief Software Officer Training Page](https://software.af.mil/training/) | Recommended books, videos, and DAU resources for DevSecOps. Nothing specific to OSCAL. | Developers | No | No date |
-| [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges using OSCAL. | General Audience | Yes | Last update June 2023(?). |
+| [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges using OSCAL. | General Audience, but more Developers | Yes | Last update June 2023(?). |
 | [GO OSCAL SDK Github Repo](https://github.com/GoComply/oscalkit) | Barebones GO SDK for working with OSCAL. | Developers | Yes | Oct 2023 |
 | [FedRAMP Automation OSCAL Guides and Templates](https://github.com/GSA/fedramp-automation) | Various tools and guides to use and automate OSCAL for the FEDRAMP process. | Developers | Yes | Sep 2023 |
 
