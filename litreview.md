@@ -45,6 +45,7 @@ Select Target OSCAL artifacts
 Define Responsibility
 Develop Ongoing monitor approach
 Implement OSCAL artifacts
+
 Balisage Paper: The Model Made Me Do It! A Cautionary Tale from a Security Control Baseline Tool Developer : https://www.balisage.net/Proceedings/vol26/html/Lubell01/BalisageVol26-Lubell01.html
 
 This was an interesting read from a security control tool developer. I wasn’t sure whether to include it, but I wanted to share for the larger group to read. The abstract is for reference: "Even the best written specifications can be complicated documents to read and understand. Normative prose is often supported by tables and diagrams intended to clarify the specification. What happens when a tool developer interprets those clarifying features as a different model than the prose intends? What does this say about relying on derived data models in tools that support the specification? A cautionary tale involving security control baselines from National Institute of Standards and Technology Special Publication 800-53 provides some answers — and insights."
