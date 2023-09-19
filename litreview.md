@@ -40,11 +40,11 @@ Table 1. Literature Review and Artifacts
 | [NIST OSCAL Tutorials](https://pages.nist.gov/OSCAL/learn/tutorials/) and [Github Repo](https://pages.nist.gov/OSCAL/learn/tutorials/) | NIST page providing step-by-step walk-throughs explaining how to create OSCAL content of various types. | Developers | Yes | 2023 |
 | [Gocomply FedRAMP/OSCAL Converter](https://github.com/GoComply/fedramp) | Take a FedRAMP/OSCAL formatted System Security Plan and output FedRAMP documents. Take OpenControl repository and produce FedRAMP/OSCAL formatted System Security Plans. | Developers | Yes | June 2023 |
 | [CIS Controls in OSCAL](https://www.cisecurity.org/insights/blog/introducing-the-cis-controls-oscal-repository) | OSCAL-formatted version of CIS Controls | Developers | Maybe | Oct 2022 |
+| [Paper - A Cautionary Tale from a Security Control Baseline Tool](https://www.balisage.net/Proceedings/vol26/html/Lubell01/BalisageVol26-Lubell01.html) | Even the best written specifications can be complicated documents to read and understand. Normative prose is often supported by tables and diagrams that clarify the specification. What happens when a tool developer interprets those clarifying features as a different model than the prose intends? | Developers | Maybe | Aug 2021 |
 
 # Current Status
 
 The following government-wide programs or agencies have adopted C-ATO and are leveraging OSCAL.
 
-Balisage Paper: The Model Made Me Do It! A Cautionary Tale from a Security Control Baseline Tool Developer : https://www.balisage.net/Proceedings/vol26/html/Lubell01/BalisageVol26-Lubell01.html
-
-This was an interesting read from a security control tool developer. I wasn’t sure whether to include it, but I wanted to share for the larger group to read. The abstract is for reference: "Even the best written specifications can be complicated documents to read and understand. Normative prose is often supported by tables and diagrams intended to clarify the specification. What happens when a tool developer interprets those clarifying features as a different model than the prose intends? What does this say about relying on derived data models in tools that support the specification? A cautionary tale involving security control baselines from National Institute of Standards and Technology Special Publication 800-53 provides some answers — and insights."
+1) FedRAMP - Adopting and moving all FedRAMP-authorized services to C-ATO through OSCAL.
+2) ?
