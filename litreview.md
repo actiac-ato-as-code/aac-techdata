@@ -31,7 +31,7 @@ Legislation (EO 14028, FISMA 2022) continues to be published, mandating advances
 This is a collection of resources.
 
 Table 1. Literature Review and Artifacts
-| Source | Overview | Audience | Relevant | Last Update |
+| Source | Overview | Audience | Federal Relevant | Last Update |
 | ------ | -------- | -------- | -------- | ------- |
 | [Air Force Office of the Chief Software Officer Training Page](https://software.af.mil/training/) | Recommended books, videos, and DAU resources for DevSecOps. Nothing specific to OSCAL. | Developers | No | No date |
 | [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges using OSCAL. | General Audience, but more Developers | Yes | Last update June 2023(?). |
@@ -39,7 +39,7 @@ Table 1. Literature Review and Artifacts
 | [FedRAMP Automation OSCAL Guides and Templates](https://github.com/GSA/fedramp-automation) | Various tools and guides to use and automate OSCAL for the FEDRAMP process. | Developers | Yes | Sep 2023 |
 | [NIST OSCAL Tutorials](https://pages.nist.gov/OSCAL/learn/tutorials/) and [Github Repo](https://pages.nist.gov/OSCAL/learn/tutorials/) | NIST page providing step-by-step walk-throughs explaining how to create OSCAL content of various types. | Developers | Yes | 
 | [Gocomply FedRAMP/OSCAL Converter](https://github.com/GoComply/fedramp) | Take a FedRAMP/OSCAL formatted System Security Plan and output FedRAMP documents. Take OpenControl repository and produce FedRAMP/OSCAL formatted System Security Plans. | Developers | Yes | June 2023 |
-| [CIS Controls in OSCAL](https://www.cisecurity.org/insights/blog/introducing-the-cis-controls-oscal-repository) | OSCAL-formatted version of CIS Controls | Developer | Oct 2022 |
+| [CIS Controls in OSCAL](https://www.cisecurity.org/insights/blog/introducing-the-cis-controls-oscal-repository) | OSCAL-formatted version of CIS Controls | Developers | Maybe | Oct 2022 |
 
 # Current Status
 
