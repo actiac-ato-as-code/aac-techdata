@@ -1,10 +1,25 @@
 # Overview
 
-OSCAL can help streamline the generation and maintenance of A&A artifacts through automation. Currently, these activities are time-consuming and labor-intensive. Steps for the adoption of OSCAL to realize ATO-as-Code are: 
+Continuous ATO (C-ATO) is an organizational initiative to automate security compliance activity. In collaboration with industry, NIST is developing the Open Security Controls Assessment Language (OSCAL), a set of formats expressed in XML, JSON, and YAML. These formats provide machine-readable representations of control catalogs, control baselines, system security plans, and assessment plans and results. A security team will likely only work with OSCAL indirectly but through a tool. The purpose of OSCAL is a standardized, machine-readable format to share artifacts between Governance, Risk, and Compliance (GRC) and software automation tools or programs.
+
+---
+
+<div class="usa-alert usa-alert--info">
+  <div class="usa-alert__body">
+    <h4 class="usa-alert__heading">Use Case 1: Leverage Security Artifacts Between Agencies</h4>
+    <p class="usa-alert__text">
+      Agency A uses C-ATO to authorize a new platform. Agency B wants to authorize the same platform and leverage the machine-readable artifacts of Agency A to shorten their authorization process from months to days.
+    </p>
+  </div>
+</div>
+
+---
+
+C-ATO can help streamline the generation and maintenance of A&A artifacts through automation. Currently, these activities are time-consuming and labor-intensive. Steps for C-ATO adoption:
 1. define a strategy
 2. make a plan
 3. ready your organization
-4. adopt OSCAL either through a tool or through a developer approach.
+4. adopt C-ATO either through a tool or developer approach.
 5. tweak your success trajectory through good governance and continuous improvement.
 
 Note that i) and ii) may not be combined and labeled a strategic plan because there is no “strategic plan.” The strategy is an integrative set of choices that positions the organization on a playing field of your choice in the most successful way. That strategy must be coherent, doable, and actionable. Planning does not have to have any such coherence and is just a list of actionable activities required to deliver on that strategy.
@@ -16,35 +31,19 @@ Legislation (EO 14028, FISMA 2022) continues to be published, mandating advances
 This is a collection of resources.
 
 Table 1. Literature Review and Artifacts
-| Source | Overview | Audience | Relevant | Current |
+| Source | Overview | Audience | Relevant | Last Update |
 | ------ | -------- | -------- | -------- | ------- |
 | [Air Force Office of the Chief Software Officer Training Page](https://software.af.mil/training/) | Recommended books, videos, and DAU resources for DevSecOps. Nothing specific to OSCAL. | Developers | No | No date |
 | [Awesome OSCAL Github Repo](https://github.com/oscal-club/awesome-oscal) and [OSCAL Club Site](https://oscal.club/) | A list of tools, blog posts, and other resources that further the use and adoption of OSCAL standards. A community project to leverage OSCAL to create tools and work through challenges using OSCAL. | General Audience, but more Developers | Yes | Last update June 2023(?). |
 | [GO OSCAL SDK Github Repo](https://github.com/GoComply/oscalkit) | Barebones GO SDK for working with OSCAL. | Developers | Yes | Oct 2023 |
 | [FedRAMP Automation OSCAL Guides and Templates](https://github.com/GSA/fedramp-automation) | Various tools and guides to use and automate OSCAL for the FEDRAMP process. | Developers | Yes | Sep 2023 |
+| [NIST OSCAL Tutorials](https://pages.nist.gov/OSCAL/learn/tutorials/) and [Github Repo](https://pages.nist.gov/OSCAL/learn/tutorials/) | NIST page providing step-by-step walk-throughs explaining how to create OSCAL content of various types. | Developers | Yes | 
+| [Gocomply FedRAMP/OSCAL Converter](https://github.com/GoComply/fedramp) | Take a FedRAMP/OSCAL formatted System Security Plan and output FedRAMP documents. Take OpenControl repository and produce FedRAMP/OSCAL formatted System Security Plans. | Developers | Yes | June 2023 |
+| [CIS Controls in OSCAL](https://www.cisecurity.org/insights/blog/introducing-the-cis-controls-oscal-repository) | OSCAL-formatted version of CIS Controls | Developer | Oct 2022 |
 
 # Current Status
 
-https://pages.nist.gov/OSCAL/
-
-NIST Walkthrough tutorials: https://pages.nist.gov/OSCAL/learn/tutorials/
-
-NISTS walkthrough tutorials seem like some of the best and most extensive documentation for developers to review; they detail how to create various OSCAL content, and when visiting the OSCAL GitHub, there are many examples of the data to review. ( https://github.com/usnistgov/OSCAL )
-
-Gocomply FEDRAMP Github: https://github.com/GoComply/fedramp Tool for manipulating official fed ramp assets
-
-CIS controls in OSCAL: https://www.cisecurity.org/insights/blog/introducing-the-cis-controls-oscal-repository CIS has created a version of their controls in OSCAL format
-
-OSCAL Layers and Models: https://pages.nist.gov/OSCAL/concepts/layer/ Nists page on the layers and Models of OSCAL provides an excellent view of how each piece works together; additionally this can be very helpful for understanding the interconnection between components for automating the ATO process.
-
-Easy Dynamics OSCAL Whitepaper: https://www.easydynamics.com/wp-content/uploads/2022/05/OSCAL-WP-1.pdf Easy Dynamics has a little white paper that summarizes what OSCAL is and what it can do in addition to an overview of a framework for OSCAL adoption consisting of a 6 step process for use in the SDLC process. Here are those steps:
-
-Identify Target System
-Educate Stakeholders
-Select Target OSCAL artifacts
-Define Responsibility
-Develop Ongoing monitor approach
-Implement OSCAL artifacts
+The following government-wide programs or agencies have adopted C-ATO and are leveraging OSCAL.
 
 Balisage Paper: The Model Made Me Do It! A Cautionary Tale from a Security Control Baseline Tool Developer : https://www.balisage.net/Proceedings/vol26/html/Lubell01/BalisageVol26-Lubell01.html
 
